@@ -147,8 +147,9 @@
                 <div class="project-content">
                     <a href="https://arxiv.org/abs/2502.20249" target="_blank"><strong>Enhancing 3D Gaze Estimation in the Wild using Weak Supervision with Gaze Following Labels</strong></a>
                     <p style="font-size: 0.9rem; font-style: italic; color: #666; margin: 0;">Pierre Vuillecard, Jean-Marc Odobez</p>
-                    <p style="font-size: 0.9rem; font-style: italic; color: #666; margin: 0;">IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025</p>
-                    <p>Accurate 3D gaze estimation in unconstrained real-world environments remains a significant challenge due to variations in appearance, head pose, occlusion, and the limited availability of in-the-wild 3D gaze datasets. To address these challenges, we introduce a novel Self-Training Weakly-Supervised Gaze Estimation framework (ST-WSGE). This two-stage learning framework leverages diverse 2D gaze datasets, such as gaze-following data, which offer rich variations in appearances, natural scenes, and gaze distributions, and proposes an approach to generate 3D pseudo-labels and enhance model generalization. Furthermore, traditional modality-specific models, designed separately for images or videos, limit the effective use of available training data. To overcome this, we propose the Gaze Transformer (GaT), a modality-agnostic architecture capable of simultaneously learning static and dynamic gaze information from both image and video datasets.</p>
+                    <p style="font-size: 0.9rem; font-style: italic; color: #666; margin: 0;">CVPR 2025</p>
+                    <p style="font-size: 0.9rem; margin: 0;"><a href="https://github.com/idiap/gaze3d" target="_blank">Code</a></p>
+                    <p>Accurate 3D gaze estimation in unconstrained real-world environments. </p>
                 </div>
             </div>
             <div class="project">
@@ -156,8 +157,8 @@
                 <div class="project-content">
                     <a href="https://openreview.net/forum?id=ALU676zGFE" target="_blank"><strong>A Novel Framework for Multi-Person Temporal Gaze Following and Social Gaze Prediction</strong></a>
                     <p style="font-size: 0.9rem; font-style: italic; color: #666; margin: 0;">Anshul Gupta, Samy Tafasca, Arya Farkhondeh, Pierre Vuillecard, Jean-Marc Odobez</p>
-                    <p style="font-size: 0.9rem; font-style: italic; color: #666; margin: 0;">The Thirty-eighth Annual Conference on Neural Information Processing Systems, 2024</p>
-                    <p>We introduce a novel framework to jointly predict the gaze target and social gaze label for all people in the scene. It comprises: (i) a temporal, transformer-based architecture that, in addition to image tokens, handles person-specific tokens capturing the gaze information related to each individual; (ii) a new dataset, VSGaze, that unifies annotation types across multiple gaze following and social gaze datasets. We show that our model trained on VSGaze can address all tasks jointly, and achieves state-of-the-art results for multi-person gaze following and social gaze prediction.</p>
+                    <p style="font-size: 0.9rem; font-style: italic; color: #666; margin: 0;">NeurIPS 2024</p>
+                    <p>A novel framework to jointly predict the gaze target and social gaze label for all people in the scene.</p>
                 </div>
             </div>
             <div class="project">
@@ -166,10 +167,10 @@
                     <!-- <h3>Project 1</h3> -->
                     <a href="https://openaccess.thecvf.com/content/CVPR2024W/GAZE/papers/Gupta_Exploring_the_Zero-Shot_Capabilities_of_Vision-Language_Models_for_Improving_Gaze_CVPRW_2024_paper.pdf" target="_blank"><strong>Exploring the Zero-Shot Capabilities of VLMs for Improving Gaze Following</strong></a>
                     <p style="font-size: 0.9rem; color: #666; margin: 0;">Anshul Gupta*, Pierre Vuillecard*, Arya Farkhondeh, Jean-Marc Odobez</p>
-                    <p style="font-size: 0.9rem; font-style: italic; color: #666; margin: 0;">IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR) Workshops, 2024</p>
+                    <p style="font-size: 0.9rem; font-style: italic; color: #666; margin: 0;">CVPR Workshops 2024 (Nvidia Best Paper Award 🥇)</p>
                     <p style="font-size: 0.9rem; font-style: italic; color: #666; margin: 0;">Best Paper Award</p>
                     <p style="font-size: 0.9rem; margin: 0;"><a href="https://youtu.be/Vgrgi53efkE?t=4383" target="_blank">Video</a></p>
-                    <p> We investigate the zero-shot capabilities of Vision-Language Models (VLMs) for extracting a wide array of contextual cues to improve gaze following performance. We first evaluate various VLMs, prompting strategies, and in-context learning (ICL) techniques for zero-shot cue recognition performance. Our analysis indicates that BLIP-2 is the overall top performing VLM and that ICL can improve performance. For gaze following, incorporating the extracted cues results in better generalization performance, especially when considering a larger set of cues.</p>
+                    <p> We leverage zero-shot capabilities of Vision-Language Models (VLMs) for extracting a wide array of contextual cues to improve gaze following performance. </p>
                 </div>
             </div>
             <div class="project">
@@ -187,13 +188,11 @@
                     <!-- <h3>Project 2</h3> -->
                     <a href="https://publications.idiap.ch/attachments/papers/2024/Vuillecard_FG_2024.pdf" target="_blank"><strong>Novel Annotations and Gaze-Aware Representations for Head Gesture Recognition</strong></a>
                     <p style="font-size: 0.9rem; color: #666; margin: 0;">Pierre Vuillecard, Arya Farkhondeh, Michael Villamizar, and Jean-Marc Odobez</p>
-                    <p style="font-size: 0.9rem; font-style: italic; color: #666; margin: 0;">18th IEEE Int. Conference on Automatic Face and Gesture Recognition (FG), 2024</p>
+                    <p style="font-size: 0.9rem; font-style: italic; color: #666; margin: 0;">FG 2024</p>
                     <p style="font-size: 0.9rem; margin: 0;"><a href="https://github.com/idiap/ccdbhg-head-gesture-recognition" target="_blank">Code</a> / <a href="https://zenodo.org/records/13927536" target="_blank">Data</a></p>
-                    <p> CCDb-HG is a novel and large dataset for head gesture recognition, 
-                        featuring diverse head gesture categories. Furthermore, we explore the inclusion of gaze as an auxiliary cue, 
-                        along with geometric and temporal data augmentation, to enhance generalization. Additionally, we evaluate various model 
-                        architectures to establish baseline performance on CCDb-HG.</p>
-                        
+                    <p> We propose a CCDb-HG is a novel and large dataset for head gesture recognition, 
+                        featuring diverse head gesture categories. We also propose a new robust model for head gesture recognition using facial cues.</p>
+
                 </div>
             </div>
             <!-- Add more project cards as needed -->
